@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(249, 203, 250);
+    background: radial-gradient(circle, rgba(249, 203, 250, 1) 0%, rgb(252, 99, 229) 100%);
+    box-shadow: 2px 2px 20px rgb(255, 0, 179);
+    margin-bottom: 2px;
+}
+
+#select {
+    width: 140px;
+    height: 40px;
+    border: 1px rgb(199, 195, 195) solid;
+    margin-right: 30px;
+}
+
+select:focus {
+    outline: none;
+}
+
+input {
+    border: 1px rgb(199, 195, 195) solid;
+    height: 38px;
+}
+
+input:focus {
+    outline: none;
+
+}
+
+#search {
+    height: 38px;
+    width: 40px;
+    border: 1px rgb(199, 195, 195) solid;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+
+    width: 100%;
+    height: auto;
+    background: rgb(249, 203, 250);
+    background: radial-gradient(circle, rgba(249, 203, 250, 1) 0%, rgba(246, 171, 241, 1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.cart {
+    background-color: white;
+    border: 1px solid rgb(255, 0, 179);
+    /* box-shadow: 1px 1px 20px rgb(255, 0, 149); */
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cart:hover {
+    box-shadow: 1px 1px 20px rgb(134, 132, 132);
+}
+
+#ans {
+    margin: 0;
+    width: 100%;
+    height: 400px;
+    background: rgb(249, 203, 250);
+    background: radial-gradient(circle, rgba(249, 203, 250, 1) 0%, rgba(246, 171, 241, 1) 100%);
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    display: none;
+}
