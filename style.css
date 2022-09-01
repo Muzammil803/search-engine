@@ -17,7 +17,7 @@
 }
 
 #select {
-    width: 140px;
+    width:14%;
     height: 40px;
     border: 1px rgb(199, 195, 195) solid;
     margin-right: 30px;
@@ -28,8 +28,10 @@ select:focus {
 }
 
 input {
+    width:40%;
     border: 1px rgb(199, 195, 195) solid;
     height: 38px;
+    padding-left: 10px;
 }
 
 input:focus {
@@ -74,12 +76,13 @@ input:focus {
 
 .cart:hover {
     box-shadow: 1px 1px 20px rgb(134, 132, 132);
+    border: 1px solid rgb(255, 157, 226);
 }
 
 #ans {
     margin: 0;
     width: 100%;
-    height: 400px;
+    height: 560px;
     background: rgb(249, 203, 250);
     background: radial-gradient(circle, rgba(249, 203, 250, 1) 0%, rgba(246, 171, 241, 1) 100%);
     display: flex;
